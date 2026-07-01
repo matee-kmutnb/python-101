@@ -1,0 +1,7 @@
+print ('Hello World!')
+print ('Information Network Engineering')
+print ('Hello Matee You Will Be A Good Engineer')
+print ("I'm Hungry")
+print ('He ask me "Who got the book"')
+print ("I'm good and \"I will do my bset\"")
+print ('/\\')
