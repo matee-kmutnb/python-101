@@ -18,7 +18,6 @@ def is_armstrong(number):
     
     # Return True if total equals original number, False otherwise
     return total == number
-print(is_armstrong(153))     
-print(is_armstrong(370))      
+print(is_armstrong(153))      
 print(is_armstrong(9474))     
-print(is_armstrong(100))  
+print(is_armstrong(123))  
