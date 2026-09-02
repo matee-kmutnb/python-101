@@ -6,3 +6,4 @@ def main():
     outfile.write('Edmund Burke\n')
     
     outfile.close()
+main()
