@@ -1,2 +1,2 @@
-with open('example.txt', 'a') as outfile:
-    outfile.write('Appending a new line to the file.\n')
+with open('example.txt', 'a') as file:
+    file.write('This line is appended.\n')
