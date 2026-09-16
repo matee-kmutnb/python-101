@@ -2,10 +2,11 @@ def divide(a, b):
     try:
         result = a / b
     except ZeroDivisionError as e:
-        print("Exception:", e)
+        print(f"Error: {e}")
+        return None
     else:
         return result
 
-a, b = map(int, input().split())
+a, b = map(int, input("Enter two numbers separated by space: ").split())
 print(divide(a, b))
 print("End of program")
