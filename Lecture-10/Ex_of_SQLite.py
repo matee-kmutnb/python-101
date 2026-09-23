@@ -17,12 +17,9 @@ CREATE TABLE IF NOT EXISTS users (
  ''')
 
 # Insert some data into the table
-cur.execute("INSERT INTO users (name , age, city) VALUES ('Alice', 25, 'New
-York ')")
-cur.execute("INSERT INTO users (name , age, city) VALUES ('Bob', 30, 'Los
-Angeles ')")
-cur.execute("INSERT INTO users (name , age, city) VALUES ('Charlie', 35, '
-Chicago ')")
+cur.execute("INSERT INTO users (name , age, city) VALUES ('Alice', 25, 'New York ')")
+cur.execute("INSERT INTO users (name , age, city) VALUES ('Bob', 30, 'Los Angeles ')")
+cur.execute("INSERT INTO users (name , age, city) VALUES ('Charlie', 35, 'Chicago ')")
 
 # Commit the changes
 conn.commit()
